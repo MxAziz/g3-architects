@@ -1,0 +1,95 @@
+
+
+
+
+
+
+/* banner style  */
+.banner-container{
+    max-width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h3{
+    color: rgb(19, 19, 19);
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.nav-list{
+
+}
+ul li{
+    list-style: none;
+    margin:25px 20px 20px 20px;
+}
+ul a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+}
+
+.banner-content{
+    max-width: 862px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.banner-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-cont-img{
+text-align: center;
+}
+
+
+.banner-img{
+    max-width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shared style  */
+.btn-primary{
+    border-radius: 8px;
+
+background: rgb(255, 144, 14);
+width: 180px;
+height: 64px;
+color: white;
+margin-top: 22px;
+}
+
+.description-primary{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(114, 114, 114) ;
+}
