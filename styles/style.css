@@ -11,6 +11,36 @@ body{
 
 
 
+/* shared style  */
+.btn-primary{
+    border-radius: 8px;
+
+background: rgb(255, 144, 14);
+width: 180px;
+height: 64px;
+color: white;
+margin-top: 22px;
+}
+
+.description-primary{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(114, 114, 114) ;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: auto;
+}
+
+main> section{
+    margin-top: 130px;
+}
+
+
+
+
 /* banner style  */
 .banner-container{
     max-width: 1920px;
@@ -117,6 +147,9 @@ text-align: center;
     display: flex;
     gap: 140px;
 }
+.experience-description{
+    margin-bottom: 30px;
+}
 
 #title-bar{
     border-left: 5px solid #FF900E;
@@ -126,20 +159,29 @@ text-align: center;
     color: rgb(19, 19, 19);
     font-size: 1.25rem;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 .experience-card{
+    max-width: 586px;
+    height: 120px;
     padding: 30px;
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-color:  rgb(255, 255, 255);;
 }
 
 #experience-badge{
+    max-width: 542px;
+    max-height: 200px;
     padding: 45px 42px;
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: -92px;
-    margin-top: -77px;
+    margin-top: -125px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
 }
 #experience-year{
     font-size: 4rem;
@@ -205,37 +247,23 @@ text-align: center;
 }
 
 
-
-
-
-/* shared style  */
-.btn-primary{
-    border-radius: 8px;
-
-background: rgb(255, 144, 14);
-width: 180px;
-height: 64px;
-color: white;
-margin-top: 22px;
-}
-
-.description-primary{
-    font-size: 1rem;
-    font-weight: 400;
-    color:rgb(114, 114, 114) ;
-}
-
-main{
+/* footer style  */
+.footer-content{
     max-width: 1440px;
-    margin: 0 auto;
-    height: auto;
-    border: 2px solid red;
+    height: 100px;
+    margin: 130px auto;
+    border-radius: 8px;
+    background-color: rgb(255, 244, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main> section{
-    margin-top: 130px;
+.footer-text{
+    color: rgb(66, 66, 66);
+    font-size: 1.25rem;
+    font-weight: 400;
 }
-
 
 
 
@@ -275,6 +303,19 @@ main> section{
         justify-items: center;
         gap: 40px;
     }
+
+    .experience-container{
+        flex-direction: column;
+    }
+    .architects img{
+        width: 100%;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
 }
 
 
@@ -297,5 +338,17 @@ main> section{
         justify-items: center;
     }
 
+    .experience-container{
+        flex-direction: column;
+    }
+    .architects img{
+        width: 100%;
+    }
 
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
 }
+
+/* -----END----- */
